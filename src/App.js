@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Home from './Componants/Home/Home';
 // import Products from './Componants/Products/Products'
 // import About from './Componants/Shoes/Shoes'
-// import Acountitem from './Componants/Acount/Acountitem'
+import Acountitem from './Componants/Acount/Acountitem'
 // import Cart from './Componants/Cart/Cart'
 // import Productview from './Componants/Products/Productview/Productview';
 // import Wishlist from './Componants/Wishlist/Wishlist'
@@ -40,9 +40,9 @@ function App() {
               {/* <Route path="/products" element={<Products />}></Route>
               <Route path="/about" element={<About />}></Route>
               <Route path="/women" element={<Women />}></Route>
-              <Route path="/men" element={<Men />}></Route>
+              <Route path="/men" element={<Men />}></Route> */}
               <Route path="/acount-item" element={<Acountitem />}></Route>
-              <Route path="/cart" element={<Cart />}></Route>
+              {/* <Route path="/cart" element={<Cart />}></Route>
               <Route path="/productview/:id" element={<Productview />}></Route>
               <Route path="/favorite" element={<Wishlist />}></Route>
               <Route path="/shoes" element={<Shoes />}></Route> */}
