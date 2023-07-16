@@ -2,9 +2,9 @@ import './Home.css'
 import React, { useState } from 'react'
 // import Topproduct from './Topproduct'
 import Card from 'react-bootstrap/Card';
-import womenphoto from '../images/beautiful-hip-hop-dancer-wearing-hooded-shirt.jpg'
-import menphoto from '../images/portrait-handsome-happy-sportsman-blue-shirt-holds-water-apple-white-wall.jpg'
-import shosephoto from '../images/white-high-top-sneakers-unisex-footwear-fashion.jpg'
+// import womenphoto from '../images/beautiful-hip-hop-dancer-wearing-hooded-shirt.jpg'
+// import menphoto from '../images/portrait-handsome-happy-sportsman-blue-shirt-holds-water-apple-white-wall.jpg'
+// import shosephoto from '../images/white-high-top-sneakers-unisex-footwear-fashion.jpg'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { AiOutlineClose } from 'react-icons/ai'
 import Navbar from 'react-bootstrap/Navbar';

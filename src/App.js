@@ -32,7 +32,7 @@ function App() {
       <div className="app-info" id={them}>
         <div className="main-app">
           <Router>
-            <ToastContainer />
+            {/* <ToastContainer /> */}
             <Header togglefunc={togglefunc} />
             {/* <Navbar1 /> */}
             <Routes>
