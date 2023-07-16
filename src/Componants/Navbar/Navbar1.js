@@ -5,9 +5,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Home from '../Home/Home'
 import Products from '../Products/Products'
-// import Men from '../men/Men'
-// import Women from '../Women/Women'
-// import Shoes from '../Shoes/Shoes'
+import Men from '../men/Men'
+import Women from '../Women/Women'
+import Shoes from '../Shoes/Shoes'
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 import { BsSuitHeart, BsCart } from 'react-icons/bs';
@@ -66,12 +66,12 @@ function Navbar1() {
                                 </Nav.Link>
 
                             </div>
-                            {/* <div className='favorite-item'>
+                            <div className='favorite-item'>
                                 <Nav.Link as={Link} to={"/favorite"}>
                                     <BsSuitHeart />
                                 </Nav.Link>
                                 <p className='favorite-number'>{wish.wishTotalQuantity}</p>
-                            </div> */}
+                            </div>
                             <div className='cart'>
                                 <Nav.Link as={Link} to={"/cart"}>
                                     <BsCart />

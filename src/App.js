@@ -7,16 +7,16 @@ import { createContext, useState } from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Home from './Componants/Home/Home';
 import Products from './Componants/Products/Products'
-// import About from './Componants/Shoes/Shoes'
+import About from './Componants/Shoes/Shoes'
 import Acountitem from './Componants/Acount/Acountitem'
 import Cart from './Componants/Cart/Cart'
 import Productview from './Componants/Products/Productview/Productview';
-// import Wishlist from './Componants/Wishlist/Wishlist'
+import Wishlist from './Componants/Wishlist/Wishlist'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import Women from './Componants/Women/Women'
-// import Men from './Componants/men/Men'
-// import Shoes from './Componants/Shoes/Shoes'
+import Women from './Componants/Women/Women'
+import Men from './Componants/men/Men'
+import Shoes from './Componants/Shoes/Shoes'
 
 export const ThemContext = createContext(null)
 
@@ -38,14 +38,14 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />}></Route>
               <Route path="/products" element={<Products />}></Route>
-              {/* <Route path="/about" element={<About />}></Route>
+              <Route path="/about" element={<About />}></Route>
               <Route path="/women" element={<Women />}></Route>
-              <Route path="/men" element={<Men />}></Route> */}
+              <Route path="/men" element={<Men />}></Route>
               <Route path="/acount-item" element={<Acountitem />}></Route>
               <Route path="/cart" element={<Cart />}></Route>
               <Route path="/productview/:id" element={<Productview />}></Route>
-              {/* <Route path="/favorite" element={<Wishlist />}></Route>
-              <Route path="/shoes" element={<Shoes />}></Route> */}
+              <Route path="/favorite" element={<Wishlist />}></Route>
+              <Route path="/shoes" element={<Shoes />}></Route>
 
             </Routes>
           </Router>
