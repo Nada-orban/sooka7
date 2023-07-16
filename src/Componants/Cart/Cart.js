@@ -5,7 +5,7 @@ import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import { useSelector, useDispatch } from 'react-redux';
 import { remove, increase, decrease, subtotal, clearcartfunc } from './Cartslice'
 import { useEffect } from 'react';
-// import { addtowishlist } from '../Wishlist/Wishslice'
+import { addtowishlist } from '../Wishlist/Wishslice'
 
 
 
@@ -26,9 +26,9 @@ function Cart() {
     const handleclearcart = () => {
         dispatch(clearcartfunc())
     }
-    // const handleaddtowishlist = (item) => {
-    //     dispatch(addtowishlist(item))
-    // }
+    const handleaddtowishlist = (item) => {
+        dispatch(addtowishlist(item))
+    }
 
 
     return (
@@ -67,7 +67,7 @@ function Cart() {
                                                         <h6 className='text-end pe-3'>$ {item.final_price}</h6>
                                                     </div>
                                                     <div className='icons d-flex  justify-content-end gap-3 position-absolute bottom-0 end-0 pe-3'>
-                                                        {/* <div className='favorite-icon ' onClick={() => handleaddtowishlist(item)}><BsSuitHeart /></div> */}
+                                                        <div className='favorite-icon ' onClick={() => handleaddtowishlist(item)}><BsSuitHeart /></div>
                                                         <div className='trash-icon ' onClick={() => handleremove(item)}><BsTrash /></div>
                                                     </div>
                                                 </div>

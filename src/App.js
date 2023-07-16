@@ -9,8 +9,8 @@ import Home from './Componants/Home/Home';
 import Products from './Componants/Products/Products'
 // import About from './Componants/Shoes/Shoes'
 import Acountitem from './Componants/Acount/Acountitem'
-// import Cart from './Componants/Cart/Cart'
-// import Productview from './Componants/Products/Productview/Productview';
+import Cart from './Componants/Cart/Cart'
+import Productview from './Componants/Products/Productview/Productview';
 // import Wishlist from './Componants/Wishlist/Wishlist'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -42,9 +42,9 @@ function App() {
               <Route path="/women" element={<Women />}></Route>
               <Route path="/men" element={<Men />}></Route> */}
               <Route path="/acount-item" element={<Acountitem />}></Route>
-              {/* <Route path="/cart" element={<Cart />}></Route>
+              <Route path="/cart" element={<Cart />}></Route>
               <Route path="/productview/:id" element={<Productview />}></Route>
-              <Route path="/favorite" element={<Wishlist />}></Route>
+              {/* <Route path="/favorite" element={<Wishlist />}></Route>
               <Route path="/shoes" element={<Shoes />}></Route> */}
 
             </Routes>
