@@ -24,7 +24,7 @@ import Store from '../Cart/Store';
 
 function Navbar1() {
     const cart = useSelector(state => state.cart)
-    // const wish = useSelector(state => state.wish)
+    const wish = useSelector(state => state.wish)
     const [close, setClose] = useState(false)
     const closefunc = () => { setClose(false) }
 
