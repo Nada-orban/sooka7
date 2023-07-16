@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+.button-details{
+    background-color:white;
+    border-radius: none;
+    color: black;
+    border-right: none;
+    border-left:none ;
+    border-top:1px solid rgb(228, 225, 225) ;
+    border-bottom:none ;
+    font-size: larger;
+    padding: 10px;
+    width:100%;
+    text-align: left;
+    
+
+}
+.button-details:hover{
+    background-color:#e2e8f0;
+}
+.card-info{
+    cursor: pointer;
+    line-height: 1;
+    font-size: medium;
+    align-self: normal;
+    
+    
+    
+    
+}
+
+.div-img{
+    overflow: hidden;
+    /* width: 100%;
+    height: 100%; */
+
+}
+.card-img{
+    transition:all 1s ease-in-out;
+    transform: scale(1);
+    border: 1px solid gray;
+    
+    
+}
+
+.card-img:hover{
+    transform: scale(1.5);
+    /* transition: all 1s ease-in-out; */
+    
+    
+    
+}
+.card-body{
+    border-style: none!important;
+    
+}
+.cat-info{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.check-button{
+    border-style: none;
+    background-color: white;
+    text-align: start;
+    padding-left:15px ;
+}
+.check-button:focus{
+    color: blue;
+    
+}
+.top-card{
+    height: 75vh ;
+}

@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux'
+import store from '../src/Componants/Cart/Store'
+import { subtotal } from './Componants/Cart/Cartslice'
+// import { quantity } from './Componants/Wishlist/Wishslice'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+store.dispatch(subtotal()) //when i need this function play in all my web
+// store.dispatch(quantity());
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
+
   </React.StrictMode>
 );
 

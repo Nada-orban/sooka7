@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn-details {
+    border: 1px solid gray;
+}
+
+.trash-icon {
+    cursor: pointer;
+}
+
+.favorite-icon {
+    cursor: pointer;
+}
+
+.code-details {
+    cursor: pointer;
+}
+
+#quantity {
+    cursor: pointer;
+}
+
+.summary-details {
+    height: max-content;
+}
+.quantity {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.decrease,.increase{
+    cursor: pointer;
+}

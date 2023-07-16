@@ -13,17 +13,17 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { BsSuitHeart, BsCart } from 'react-icons/bs';
 import { AiOutlineUser } from 'react-icons/ai'
 import './Navbar1.css'
-// import Acountitem from '../Acount/Acountitem';
-// import Cart from '../Cart/Cart'
+import Acountitem from '../Acount/Acountitem';
+import Cart from '../Cart/Cart'
 import { useState } from 'react';
 import logo from '../images/logo-no-background.png'
-// import { useSelector } from 'react-redux';
-// import Store from '../Cart/Store';
+import { useSelector } from 'react-redux';
+import Store from '../Cart/Store';
 
 
 
 function Navbar1() {
-    // const cart = useSelector(state => state.cart)
+    const cart = useSelector(state => state.cart)
     // const wish = useSelector(state => state.wish)
     const [close, setClose] = useState(false)
     const closefunc = () => { setClose(false) }
@@ -71,13 +71,13 @@ function Navbar1() {
                                     <BsSuitHeart />
                                 </Nav.Link>
                                 <p className='favorite-number'>{wish.wishTotalQuantity}</p>
-                            </div>
+                            </div> */}
                             <div className='cart'>
                                 <Nav.Link as={Link} to={"/cart"}>
                                     <BsCart />
                                 </Nav.Link>
                                 <p className='cart-number'>{cart.cartTotalQuantity}</p>
-                            </div> */}
+                            </div>
 
 
                         </div>

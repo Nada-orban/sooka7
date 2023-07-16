@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.productview{
+    font-size: 20px;
+    overflow: hidden;
+}
+.btn-fav {
+    border: 1px solid black;
+}
+.image-icon{
+    cursor: pointer;
+}
