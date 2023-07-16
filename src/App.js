@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import Navbar1 from './Componants/Navbar/Navbar1';
+import Navbar1 from './Componants/Navbar/Navbar1';
 import Header from './Componants/Header/Header';
 import Footer from './Componants/Footer/Footer';
 import { createContext, useState } from 'react';
@@ -34,7 +34,7 @@ function App() {
           <Router>
             {/* <ToastContainer /> */}
             <Header togglefunc={togglefunc} />
-            {/* <Navbar1 /> */}
+            <Navbar1 />
             <Routes>
               <Route path="/" element={<Home />}></Route>
               {/* <Route path="/products" element={<Products />}></Route>
