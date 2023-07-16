@@ -1,0 +1,17 @@
+.dark-mode{
+    cursor: pointer;
+}
+.button:hover{
+    color:green;
+    background-color: #e2e8f0;
+    border-color: white;
+
+}
+.button{
+    border: 1px solid white;
+}
+.header-info{
+    background-color: black;
+    color: white;
+    height: 40px;
+}

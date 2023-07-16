@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -6,13 +10,72 @@
   height: 40vmin;
   pointer-events: none;
 }
+body{
+  background-color:#eceff1
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+#light{
+  background-color: white;
+}
+#light .header{
+  background-color:rgb(245, 246, 247);
 
+}
+#light .nav-link{
+  color: black;
+}
+
+
+#dark{
+  background-color: #1c1e21;
+  color: white;
+}
+#dark .header{
+  background-color:black;
+  border-bottom: 1px solid white;
+
+}
+#dark .navbar{
+  background-color: #1c1e21;
+  color: white;
+}
+#dark .nav-link{
+  color: white;
+}
+#dark .card-info{
+  color: black;
+}
+#dark .acount{
+  color: black;
+}
+#dark .card-body{
+  background-color: #1c1e21;
+  color: white;
+}
+#dark .button-details{
+  background-color: #1c1e21;
+  color: white;
+}
+
+#dark .cart-details{
+  color: black;
+}
+
+.app-info{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+
+}
+.main-app{
+  flex:1;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +99,4 @@
     transform: rotate(360deg);
   }
 }
+
