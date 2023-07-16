@@ -11,7 +11,7 @@
     height: 40px;
 }
 .landing{
-    background-image:url("/home/nada/Documents/front end/study/react/sooka-store/src/Componants/images/trans-man-exercising-gym.jpg") ;
+    background-image:url("../images/trans-man-exercising-gym.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
