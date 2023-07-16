@@ -6,7 +6,7 @@ import Footer from './Componants/Footer/Footer';
 import { createContext, useState } from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Home from './Componants/Home/Home';
-// import Products from './Componants/Products/Products'
+import Products from './Componants/Products/Products'
 // import About from './Componants/Shoes/Shoes'
 import Acountitem from './Componants/Acount/Acountitem'
 // import Cart from './Componants/Cart/Cart'
@@ -37,8 +37,8 @@ function App() {
             <Navbar1 />
             <Routes>
               <Route path="/" element={<Home />}></Route>
-              {/* <Route path="/products" element={<Products />}></Route>
-              <Route path="/about" element={<About />}></Route>
+              <Route path="/products" element={<Products />}></Route>
+              {/* <Route path="/about" element={<About />}></Route>
               <Route path="/women" element={<Women />}></Route>
               <Route path="/men" element={<Men />}></Route> */}
               <Route path="/acount-item" element={<Acountitem />}></Route>

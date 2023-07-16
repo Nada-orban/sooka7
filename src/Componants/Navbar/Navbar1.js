@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import Home from '../Home/Home'
-// import Products from '../Products/Products'
+import Home from '../Home/Home'
+import Products from '../Products/Products'
 // import Men from '../men/Men'
 // import Women from '../Women/Women'
 // import Shoes from '../Shoes/Shoes'
