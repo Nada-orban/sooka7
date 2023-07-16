@@ -58,25 +58,6 @@
     "sizes": ["small", "medium", "large"],
     "reviews": 122,
     "rating": 2.5
-  },{
-    "id": 30,
-    "name": "ESSENTIALS DOWN JACKET",
-    "color": "Victory Blue",
-    "colortype": "blue",
-    "gender": "MEN",
-    "category": "clothes",
-    "original_price": "6499",
-    "final_price": "3799",
-    "images": [
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2ad193f5f58d4180a3a2ad48008bc2b7_9366/ESSENTIALS_DOWN_JACKET_Blue_GT9173_21_model.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ac98893864d24ae1b30fad4a00aa23f2_9366/ESSENTIALS_DOWN_JACKET_Blue_GT9173_22_model.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b6ef2e221e5f4343b6fcad48008bca2d_9366/ESSENTIALS_DOWN_JACKET_Blue_GT9173_23_hover_model.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d88640488507470dac97ad48008bd230_9366/ESSENTIALS_DOWN_JACKET_Blue_GT9173_25_model.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7854b7b8280141d4a94aad37012aeda0_9366/ESSENTIALS_DOWN_JACKET_Blue_GT9173_01_laydown.jpg"
-    ],
-    "sizes": ["small", "medium", "large"],
-    "reviews": 341,
-    "rating": 4.3
   },
   {
     "id": 22,
