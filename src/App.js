@@ -12,8 +12,8 @@ import Home from './Componants/Home/Home';
 // import Cart from './Componants/Cart/Cart'
 // import Productview from './Componants/Products/Productview/Productview';
 // import Wishlist from './Componants/Wishlist/Wishlist'
-// import { ToastContainer } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 // import Women from './Componants/Women/Women'
 // import Men from './Componants/men/Men'
 // import Shoes from './Componants/Shoes/Shoes'
@@ -32,7 +32,7 @@ function App() {
       <div className="app-info" id={them}>
         <div className="main-app">
           <Router>
-            {/* <ToastContainer /> */}
+            <ToastContainer />
             <Header togglefunc={togglefunc} />
             <Navbar1 />
             <Routes>
