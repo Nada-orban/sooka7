@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "name": "AERO 3 STRIPES TEE",
+    "color": "Semi Flash Red",
+    "colortype": "red",
+    "category": "clothes",
+    "gender": "MEN",
+    "original_price": "2499",
+    "final_price": "799",
+    "images": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f3e8e61310a24063b819ae9f00a1c63b_9366/AERO_3_STRIPES_TEE_Red_H66369_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/57db86369e5c4161bde5ae9f00a1c3f1_9366/AERO_3_STRIPES_TEE_Red_H66369_22_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d0726719958b4fbcbf5cae9f00a1cded_9366/AERO_3_STRIPES_TEE_Red_H66369_23_hover_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/873259e8a5ab440cbb35ae9f00a1cba3_9366/AERO_3_STRIPES_TEE_Red_H66369_25_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/86239d589c904b67bce6ae9f00a1cb2d_9366/AERO_3_STRIPES_TEE_Red_H66369_41_detail.jpg"
+    ],
+    "sizes": ["small", "medium"],
+    "reviews": 15,
+    "rating": 4
+  },
+  {
+    "id": 20,
+    "name": "FUTURE ICONS 3-STRIPES TEE",
+    "color": "Magic Grey",
+    "colortype": "blue",
+    "gender": "WOMEN",
+    "category": "clothes",
+    "original_price": "2299",
+    "final_price": "1199",
+    "images": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b7bd106a5d764d908b46aebb0157ffe3_9366/FUTURE_ICONS_3-STRIPES_TEE_Grey_HS8785_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3e4e5792c9d749a88d1baebb0157e76e_9366/FUTURE_ICONS_3-STRIPES_TEE_Grey_HS8785_22_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c74d742ec074b168453aebb01580b33_9366/FUTURE_ICONS_3-STRIPES_TEE_Grey_HS8785_23_hover_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cbc3a2a3c06e4a7db6a9aebb0157fe97_9366/FUTURE_ICONS_3-STRIPES_TEE_Grey_HS8785_25_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/32a091467a6b4bc38c77aebb01580260_9366/FUTURE_ICONS_3-STRIPES_TEE_Grey_HS8785_41_detail.jpg"
+    ],
+    "sizes": ["small", "medium", "large"],
+    "reviews": 64,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "SOFTKNIT LOAFERS",
+    "color": "BLACK & GREY (BLACK SOLE)",
+    "colortype": "black",
+    "category": "shoes",
+    "gender": "MEN",
+    "original_price": "4499",
+    "final_price": "3649",
+    "images": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f6f2bd794a7a4b50b109aebd00c86ebd_9366/PRIMIERTO_SHOES_Black_GA1187_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/24546a5d45ed4a1fb76caebd00c83478_9366/PRIMIERTO_SHOES_Black_GA1187_02_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1d4596bc35874e539ab1aebd00c82a43_9366/PRIMIERTO_SHOES_Black_GA1187_03_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6bdbdac8d0c149eebc26aebd00c8345f_9366/PRIMIERTO_SHOES_Black_GA1187_06_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bca23665fb014f058facaebd00c831de_9366/PRIMIERTO_SHOES_Black_GA1187_41_detail.jpg"
+    ],
+    "sizes": ["small", "medium", "large"],
+    "reviews": 122,
+    "rating": 2.5
+  },{
+    "id": 30,
+    "name": "ESSENTIALS DOWN JACKET",
+    "color": "Victory Blue",
+    "colortype": "blue",
+    "gender": "MEN",
+    "category": "clothes",
+    "original_price": "6499",
+    "final_price": "3799",
+    "images": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2ad193f5f58d4180a3a2ad48008bc2b7_9366/ESSENTIALS_DOWN_JACKET_Blue_GT9173_21_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ac98893864d24ae1b30fad4a00aa23f2_9366/ESSENTIALS_DOWN_JACKET_Blue_GT9173_22_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b6ef2e221e5f4343b6fcad48008bca2d_9366/ESSENTIALS_DOWN_JACKET_Blue_GT9173_23_hover_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d88640488507470dac97ad48008bd230_9366/ESSENTIALS_DOWN_JACKET_Blue_GT9173_25_model.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7854b7b8280141d4a94aad37012aeda0_9366/ESSENTIALS_DOWN_JACKET_Blue_GT9173_01_laydown.jpg"
+    ],
+    "sizes": ["small", "medium", "large"],
+    "reviews": 341,
+    "rating": 4.3
+  },
+  {
+    "id": 22,
+    "name": "CORE LINEAR QUICKFLOW SHOES",
+    "color": "Victory Blue / Cloud White / Semi Screaming Green / Collegiate Navy",
+    "colortype": "blue",
+    "gender": "WOMEN",
+    "category": "shoes",
+    "original_price": "4299",
+    "final_price": "2999",
+    "images": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8012a88ae5804985800bae3001041997_9366/CORE_LINEAR_Quickflow_SHOES_Blue_EY2945_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d8ad3916084e414e8b20ae3001041e97_9366/CORE_LINEAR_Quickflow_SHOES_Blue_EY2945_02_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2cb5efaa55f5441bbf1cae3001041450_9366/CORE_LINEAR_Quickflow_SHOES_Blue_EY2945_03_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/077fd491c1b14ac5ba61ae3001041ba9_9366/CORE_LINEAR_Quickflow_SHOES_Blue_EY2945_04_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbcd5c3416e54c3fa198ae30011fac6e_9366/CORE_LINEAR_Quickflow_SHOES_Blue_EY2945_05_standard.jpg"
+    ],
+    "sizes": ["small", "medium", "large"],
+    "reviews": 146,
+    "rating": 4.7
+  },
+  {
+    "id": 23,
+    "name": "SOFTKNIT LOAFERS",
+    "color": "BLACK & GREY (BLACK SOLE)",
+    "colortype": "black",
+    "category": "shoes",
+    "gender": "MEN",
+    "original_price": "4499",
+    "final_price": "3649",
+    "images": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f6f2bd794a7a4b50b109aebd00c86ebd_9366/PRIMIERTO_SHOES_Black_GA1187_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/24546a5d45ed4a1fb76caebd00c83478_9366/PRIMIERTO_SHOES_Black_GA1187_02_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1d4596bc35874e539ab1aebd00c82a43_9366/PRIMIERTO_SHOES_Black_GA1187_03_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6bdbdac8d0c149eebc26aebd00c8345f_9366/PRIMIERTO_SHOES_Black_GA1187_06_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bca23665fb014f058facaebd00c831de_9366/PRIMIERTO_SHOES_Black_GA1187_41_detail.jpg"
+    ],
+    "sizes": ["small", "large"],
+    "reviews": 122,
+    "rating": 2.5
+  }
+]

@@ -1,6 +1,6 @@
 import './Home.css'
 import React, { useState } from 'react'
-// import Topproduct from './Topproduct'
+import Topproduct from './Topproduct'
 import Card from 'react-bootstrap/Card';
 // import womenphoto from '../images/beautiful-hip-hop-dancer-wearing-hooded-shirt.jpg'
 // import menphoto from '../images/portrait-handsome-happy-sportsman-blue-shirt-holds-water-apple-white-wall.jpg'
@@ -41,7 +41,7 @@ function Home() {
                 </div>
 
             </div>
-            {/* <Topproduct /> */}
+            <Topproduct />
             {/* <div className='category-photo px-5 row my-5 h-100'>
                     <div className='col-lg-4 col-sm-12'>
                         <div className='women-category'>
